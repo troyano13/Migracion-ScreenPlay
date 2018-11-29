@@ -1,0 +1,9 @@
+<story path="stories/Register.story" title="">
+<scenario keyword="Scenario:" title="Narrative:
+User registration to the page with valid data
+Register on the page">
+<step outcome="successful">Given I have chosen to register, Login to user registration</step>
+<step outcome="successful">When I completely fill out the registration form</step>
+<step outcome="successful">Then I press the submit button, the system must save the user&apos;s information</step>
+</scenario>
+</story>

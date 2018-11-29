@@ -1,0 +1,53 @@
+<acceptance-test-run title="Narrative" name="Narrative:&#xd;&#xa;realization of flight search in the application&#xd;&#xa;Make a flight reservation" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17090" timestamp="2018-10-19T12:51:04.935-05:00" session-id="58325370ad534d0c56af8eb456ff0904">
+  <user-story id="Reservation" name="Reservation" path="stories/Reservation.story"/>
+  <tags>
+    <tag name="Reservation" type="story"/>
+  </tags>
+  <test-group name="Given I want to make a reservation, I go to flights" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2c97c444dd780a2d56bbcbfcb58f2328.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="6186">
+      <screenshots>
+        <screenshot image="ec3e6619d4c28c603a35bec66c965284.png"/>
+      </screenshots>
+      <description>Abrir la principal</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2112">
+      <screenshots>
+        <screenshot image="ec3e6619d4c28c603a35bec66c965284.png"/>
+        <screenshot image="2c97c444dd780a2d56bbcbfcb58f2328.png"/>
+      </screenshots>
+      <description>Llenar login</description>
+    </test-step>
+  </test-group>
+  <test-group name="When he finds my destiny" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f5e9d4a564085cc87088823e8856c580.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1050">
+      <screenshots>
+        <screenshot image="e0e5645082e965633f5843855eb0792b.png"/>
+      </screenshots>
+      <description>Ir search</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3902">
+      <screenshots>
+        <screenshot image="e0e5645082e965633f5843855eb0792b.png"/>
+        <screenshot image="f5e9d4a564085cc87088823e8856c580.png"/>
+      </screenshots>
+      <description>Fill search</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the system must let save my reservation" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f62c2c303bef51542bae03ebcb36eccc.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2631">
+      <screenshots>
+        <screenshot image="f62c2c303bef51542bae03ebcb36eccc.png"/>
+      </screenshots>
+      <description>Fill reservation</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,46 @@
+<acceptance-test-run title="Narrative" name="Narrative:&#xd;&#xa;User registration to the page with valid data&#xd;&#xa;Register on the page" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="13762" timestamp="2018-10-19T12:50:49.486-05:00" session-id="5b449895a5ce50afd2cb4fdc6609b280">
+  <user-story id="Register" name="Register" path="stories/Register.story"/>
+  <tags>
+    <tag name="Register" type="story"/>
+  </tags>
+  <test-group name="Given I have chosen to register, Login to user registration" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2d381c14f9b1b25e7a60be576f668506.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="7314">
+      <screenshots>
+        <screenshot image="ec3e6619d4c28c603a35bec66c965284.png"/>
+      </screenshots>
+      <description>Abrir la principal</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1536">
+      <screenshots>
+        <screenshot image="ec3e6619d4c28c603a35bec66c965284.png"/>
+        <screenshot image="2d381c14f9b1b25e7a60be576f668506.png"/>
+      </screenshots>
+      <description>Ir register</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I completely fill out the registration form" result="SUCCESS">
+    <screenshots>
+      <screenshot image="8ec98bbf797c79ccc2606c16cbcc4a7e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3273">
+      <screenshots>
+        <screenshot image="8ec98bbf797c79ccc2606c16cbcc4a7e.png"/>
+      </screenshots>
+      <description>Llenar registry</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I press the submit button, the system must save the user&apos;s information" result="SUCCESS">
+    <screenshots>
+      <screenshot image="8ec98bbf797c79ccc2606c16cbcc4a7e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="464">
+      <screenshots>
+        <screenshot image="8ec98bbf797c79ccc2606c16cbcc4a7e.png"/>
+      </screenshots>
+      <description>Valide registry</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

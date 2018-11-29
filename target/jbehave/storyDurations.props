@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Fri Oct 19 12:51:23 COT 2018
+stories/Reservation.story=18000
+threads=1
+total=18000
+threadAverage=18000

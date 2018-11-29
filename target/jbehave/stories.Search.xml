@@ -1,0 +1,28 @@
+<story path="stories/Search.story" title="">
+<scenario keyword="Scenario:" title="Narrative:
+search feature for users This feature is very important because it will allow users to filter products
+
+Perform a flight search">
+<step outcome="pending" keyword="PENDING">Given I want to look for a flight, o to the flight tab</step>
+<step outcome="pending" keyword="PENDING">When ind my destiny</step>
+<step outcome="pending" keyword="PENDING">Then the system should display the information attached to the selected and</step>
+<pendingMethod>@Given(&quot;I want to look for a flight, o to the flight tab&quot;)
+@Pending
+public void givenIWantToLookForAFlightOToTheFlightTab() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;ind my destiny&quot;)
+@Pending
+public void whenIndMyDestiny() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;the system should display the information attached to the selected and&quot;)
+@Pending
+public void thenTheSystemShouldDisplayTheInformationAttachedToTheSelectedAnd() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+</story>

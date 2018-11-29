@@ -1,0 +1,8 @@
+<story path="stories/Login.story" title="">
+<scenario keyword="Scenario:" title="Narrative:
+Login to the application">
+<step outcome="successful">Given I want to access the page, I go to the user login</step>
+<step outcome="successful">When I fill in the fields of the form with valid data for login</step>
+<step outcome="successful">Then the system must allow the entry by pressing the submit button</step>
+</scenario>
+</story>

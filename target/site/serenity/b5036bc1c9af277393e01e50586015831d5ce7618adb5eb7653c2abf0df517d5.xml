@@ -1,0 +1,39 @@
+<acceptance-test-run title="Narrative" name="Narrative:&#xd;&#xa;Login to the application" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17512" timestamp="2018-10-19T12:50:27.538-05:00" session-id="7b028a4b41c934da3c36b9c8dcae1441">
+  <user-story id="Login" name="Login" path="stories/Login.story"/>
+  <tags>
+    <tag name="Login" type="story"/>
+  </tags>
+  <test-group name="Given I want to access the page, I go to the user login" result="SUCCESS">
+    <screenshots>
+      <screenshot image="ec3e6619d4c28c603a35bec66c965284.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="11781">
+      <screenshots>
+        <screenshot image="ec3e6619d4c28c603a35bec66c965284.png"/>
+      </screenshots>
+      <description>Abrir la principal</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I fill in the fields of the form with valid data for login" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2c97c444dd780a2d56bbcbfcb58f2328.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2438">
+      <screenshots>
+        <screenshot image="2c97c444dd780a2d56bbcbfcb58f2328.png"/>
+      </screenshots>
+      <description>Llenar login</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the system must allow the entry by pressing the submit button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2c97c444dd780a2d56bbcbfcb58f2328.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="471">
+      <screenshots>
+        <screenshot image="2c97c444dd780a2d56bbcbfcb58f2328.png"/>
+      </screenshots>
+      <description>Validar</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,15 @@
+<acceptance-test-run title="Narrative" name="Narrative:&#xd;&#xa;search feature for users This feature is very important because it will allow users to filter products&#xd;&#xa;&#xd;&#xa;Perform a flight search" steps="3" successful="0" failures="0" skipped="0" ignored="0" pending="3" annotated-result="PENDING" result="PENDING" duration="67" timestamp="2018-10-19T12:50:49.052-05:00">
+  <user-story id="Search" name="Search" path="stories/Search.story"/>
+  <tags>
+    <tag name="Search" type="story"/>
+  </tags>
+  <test-step result="PENDING" duration="0">
+    <description>Given I want to look for a flight, o to the flight tab</description>
+  </test-step>
+  <test-step result="PENDING" duration="0">
+    <description>When ind my destiny</description>
+  </test-step>
+  <test-step result="PENDING" duration="1">
+    <description>Then the system should display the information attached to the selected and</description>
+  </test-step>
+</acceptance-test-run>
